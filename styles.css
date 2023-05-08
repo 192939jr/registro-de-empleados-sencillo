@@ -1,0 +1,106 @@
+/* Define la fuente, el margen y el relleno para todo el documento, además del color de fondo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #accbee, #e7f0fd);
+}
+
+/* Estilos para el título principal */
+h1 {
+    background-color: #4682B4;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    border-bottom: 3px solid #000;
+}
+
+/* Estilos para el contenedor del formulario */
+.register-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* Estilos para las etiquetas de los campos de entrada */
+.register-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Estilos para los campos de entrada */
+.register-container input {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+/* Estilos para los divs que contienen los campos de entrada y las etiquetas correspondientes */
+.register-container > div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #4682B4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 5px;
+    width: 300px;
+    max-width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+/* Cambia el color de fondo del botón cuando se pasa el cursor por encima */
+button:hover {
+    background-color: #5A9;
+}
+
+/* Estilos para el contenedor de la lista de empleados */
+.list-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la lista de empleados */
+#employeesList {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilos para los elementos de la lista de empleados */
+#employeesList li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Elimina la línea inferior del último elemento de la lista */
+#employeesList li:last-child {
+    border-bottom: none;
+}
+
+/* Estilos para los separadores horizontales */
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
